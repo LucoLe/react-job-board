@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button } from 'semantic-ui-react';
 
-const Index = () => {
+const Home = () => {
   return (
     <div>
       <Button primary>Semantic button</Button>
@@ -9,4 +9,4 @@ const Index = () => {
   );
 }
 
-export default Index;
+export default Home;
