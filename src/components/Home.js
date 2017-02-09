@@ -1,10 +1,13 @@
 import React from 'react';
-import { Button } from 'semantic-ui-react';
+import { Segment } from 'semantic-ui-react';
 
 const Home = () => {
   return (
     <div>
-      <Button primary>Semantic button</Button>
+      <p></p>
+      <Segment>
+        <img src='http://semantic-ui.com/images/wireframe/media-paragraph.png' alt='placeholder' />
+      </Segment>
     </div>
   );
 }
